@@ -1,0 +1,8 @@
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.AssemblyInfoInputs.cache
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.AssemblyInfo.cs
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.csproj.CoreCompileInputs.cache
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\bin\Debug\netcoreapp3.1\BlogLab.Models.deps.json
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\bin\Debug\netcoreapp3.1\BlogLab.Models.dll
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\bin\Debug\netcoreapp3.1\BlogLab.Models.pdb
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.dll
+C:\Users\CrazyYiwen\Desktop\NetCoreProj\BlogLab.Models\obj\Debug\netcoreapp3.1\BlogLab.Models.pdb

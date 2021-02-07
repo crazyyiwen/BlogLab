@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ybKMBQNKIauC6DRLrLol2vPOpBV7106kLgXPqgsBIdFFzWoOPrhI7RxH2kUW7+kYESUKDknUa2j2cq3jvY4sjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Models\\BlogLab.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CrazyYiwen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
