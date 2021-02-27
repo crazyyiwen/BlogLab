@@ -1,9 +1,79 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {}
+    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Identity\\BlogLab.Identity.csproj": {}
   },
   "projects": {
+    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Identity\\BlogLab.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Identity\\BlogLab.Identity.csproj",
+        "projectName": "BlogLab.Identity",
+        "projectPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Identity\\BlogLab.Identity.csproj",
+        "packagesPath": "C:\\Users\\CrazyYiwen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CrazyYiwen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Models\\BlogLab.Models.csproj": {
+                "projectPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Models\\BlogLab.Models.csproj"
+              },
+              "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Repository\\BlogLab.Repository.csproj": {
+                "projectPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Repository\\BlogLab.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Models\\BlogLab.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -67,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {
+    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Repository\\BlogLab.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
-        "projectName": "BlogLab.Web",
-        "projectPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
+        "projectUniqueName": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Repository\\BlogLab.Repository.csproj",
+        "projectName": "BlogLab.Repository",
+        "projectPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Repository\\BlogLab.Repository.csproj",
         "packagesPath": "C:\\Users\\CrazyYiwen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\obj\\",
+        "outputPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -109,6 +179,24 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -120,9 +208,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {}
+    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Services\\BlogLab.Services.csproj": {}
   },
   "projects": {
     "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Models\\BlogLab.Models.csproj": {
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj": {
+    "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Services\\BlogLab.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
-        "projectName": "BlogLab.Web",
-        "projectPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
+        "projectUniqueName": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Services\\BlogLab.Services.csproj",
+        "projectName": "BlogLab.Services",
+        "projectPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Services\\BlogLab.Services.csproj",
         "packagesPath": "C:\\Users\\CrazyYiwen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab\\BlogLab.Web\\obj\\",
+        "outputPath": "C:\\Users\\CrazyYiwen\\Desktop\\NetCoreProj\\BlogLab.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -109,6 +109,32 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -120,9 +146,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
