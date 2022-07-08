@@ -89,10 +89,10 @@ namespace BlogLab.Web {
 
             app.ConfigureExceptionHandler( );
 
-            app.UseHttpsRedirection ( );
-            app.UseStaticFiles ( );
-
             app.UseRouting ( );
+
+            //app.UseHttpsRedirection ( );
+            //app.UseStaticFiles ( );
 
             if ( env.IsDevelopment ( ) ) {
                 app.UseCors (options => options.AllowAnyHeader ( ).AllowAnyMethod ( ).AllowAnyOrigin ( ));
@@ -104,7 +104,7 @@ namespace BlogLab.Web {
             app.UseAuthorization ( );
 
             app.UseEndpoints (endpoints => {
-                endpoints.MapRazorPages ( );
+                endpoints.MapControllers ( );
             });
         }
     }
