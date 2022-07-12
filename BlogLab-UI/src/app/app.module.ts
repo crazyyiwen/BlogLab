@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
@@ -26,6 +27,7 @@ import { PhotoAlbumComponent } from './components/photo-album/photo-album.compon
 import { RegisterComponent } from './components/register/register.component';
 import { JwtInterceptor } from './interceptor/jwt.interceptor';
 import { ErrorInterceptor } from './interceptor/error.interceptor';
+
 
 @NgModule({
   declarations: [
@@ -57,6 +59,8 @@ import { ErrorInterceptor } from './interceptor/error.interceptor';
     }),
     CollapseModule.forRoot(),
     BsDropdownModule.forRoot(),
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [
     HttpClient,
